@@ -1,0 +1,29 @@
+<Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Home" component={Home} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Services" component={Services} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
+        </Switch>
+      </Router>
+
+
+<About />
+   <Services/>
+   <Portfolio/>
+   <Contact/>
+   <Footer/>
+   
+<About />
+        <Services />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      import { BrowserRouter as Route, Switch } from "react-router-dom";
+import About from "./About";
+import { Router } from "react-router";
+import Services from "./Services";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
