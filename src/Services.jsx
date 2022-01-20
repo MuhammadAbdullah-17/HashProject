@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import servicesData from './servicesData'
 const Services = () => {
   return (
-    <div className="container">
+    <div className="container" id="Services">
       <div className="row text-center mt-4">
         <h5 className="col-12 " style={{ color: "orange" }}>
           Our Vision
@@ -15,7 +15,7 @@ const Services = () => {
           assets and smart money for the longest time.
         </p>
       </div>
-      <div className="cards row mt-3  col-12 col-sm-12 col-md-12 col-lg-12">
+      <div className="cards row mt-3 mx-auto col-12 col-sm-12 col-md-12 col-lg-12">
         {servicesData.map((data) => {
           return (
             <>

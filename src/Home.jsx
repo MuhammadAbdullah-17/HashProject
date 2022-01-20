@@ -15,7 +15,7 @@ const Home = () => {
       style={{
         backgroundImage: "url(./images/bg1.png)",
         backgroundRepeat: "no-repeat",
-        backgroundPosition:'center'
+        backgroundPosition: "center"
       }}
     >
       <div
@@ -30,7 +30,7 @@ const Home = () => {
         <Carousel className="container">
           <Carousel.Item interval={3000}>
             <div className="row">
-              <div className="col-md-4 col-10 col-sm-10 m-lg-5 m-md-4 m-sm-4 m-4 text-left text-black fw-bolder">
+              <div className="col-md-4 col-10 col-sm-10 m-4 mt-5 text-left text-black fw-bolder">
                 <p style={{ color: "orange" }}>
                   Convert ideas into practical Applications.
                 </p>
@@ -67,7 +67,7 @@ const Home = () => {
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div className="row">
-              <div className="col-md-4 col-10 col-sm-10 m-lg-5 m-md-4 m-sm-4 m-4 text-left text-black fw-bolder">
+              <div className="col-md-4 col-10 col-sm-10 m-4 mt-5 text-left text-black fw-bolder">
                 <p style={{ color: "orange" }}>
                   Convert ideas into practical Applications.
                 </p>
@@ -104,7 +104,7 @@ const Home = () => {
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div className="row">
-              <div className="col-md-4 col-10 col-sm-10 m-lg-5 m-md-4 m-sm-4 m-4 text-left text-black fw-bolder">
+              <div className="col-md-4 col-10 col-sm-10 m-4 mt-5 text-left text-black fw-bolder">
                 <p style={{ color: "orange" }}>
                   Convert ideas into practical Applications.
                 </p>

@@ -13,12 +13,12 @@ const Header = () => {
               <Navbar.Brand  href="/Home"><img className="himg col-sm-8" src="./images/logo.png" alt="Logo" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ms-auto nav">
-                  <NavLink className="nav" exact to="/">Home</NavLink>
-                  <NavLink className="nav" exact to="/About">About Us</NavLink>
-                  <NavLink className="nav" exact to="/Services">Services</NavLink>
-                  <NavLink className="nav" exact to="/Portfolio">Portfolio</NavLink>
-                  <NavLink className="nav" exact to="/Contact">Contact US</NavLink>
+                <Nav className="ms-auto mt-2 ">
+                  <a className="nav mt-2" exact href="/">Home</a>
+                  <a className="nav mt-2" exact href="#About">About Us</a>
+                  <a className="nav mt-2" exact href="#Services">Services</a>
+                  <a className="nav mt-2" exact href="#Portfolio">Portfolio</a>
+                  <a className="nav mt-2" exact href="#Contact">Contact US</a>
                 </Nav>
               </Navbar.Collapse>
             </Container>
