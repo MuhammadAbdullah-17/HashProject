@@ -7,18 +7,18 @@ import "./App.css";
 // ..
 AOS.init();
 const About = () => {
+  const [showResults, setShowResults] = React.useState(false);
+  const Submit = () => setShowResults(!showResults);
   return (
     <>
-      <div className="container"
-      id="About"
-      >
+      <div className="container" id="About">
         <div className="mt-4">
           <div className="row mx-auto">
             {Data.map((data) => {
               return (
                 <>
                   <Card
-                   // data-aos="fade-up" data-aos-duration="1500"
+                    // data-aos="fade-up" data-aos-duration="1500"
                     className="mx-auto card col-10 mb-1"
                     style={{
                       width: "15rem",
@@ -73,17 +73,19 @@ const About = () => {
               provides its customers with embryonic crypto assets, smart money,
               and digital currency project. We, as investors, believe in
               investing in the right people at the right time.
-              <span style={{ display: "block" }}>
+              <span style={{ display: showResults ? "block" : "none" }}>
                 We believe in providing the proper support and guidance through
                 our well-established network to get our customers to reach
                 heights.
               </span>
             </p>
+
             <Button
               className="btn border-0 rounded-pill btn-lg"
               style={{ backgroundColor: "orange" }}
+              onClick={Submit}
             >
-              Read More
+              {showResults ? <h5>Show Less</h5> : <h5>Show More</h5>}
             </Button>
           </div>
         </div>
