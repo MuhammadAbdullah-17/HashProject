@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 import './App.css'
+import logo from './images/logo.png'
 const Header = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const Header = () => {
         <div className="col-12">
           <Navbar  expand="lg">
             <Container>
-              <Navbar.Brand  href="/Home"><img className="himg col-sm-8" src="./images/logo.png" alt="Logo" /></Navbar.Brand>
+              <Navbar.Brand  href="/Home"><img className="himg col-sm-8" src={logo} alt="Logo" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto mt-2 ">

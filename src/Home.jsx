@@ -6,6 +6,11 @@ import Footer from "./Footer";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import pb from './images/pb.png'
+import pbbg from './images/pbbg.png'
+import bg1 from './images/bg1.png'
+import bg2 from './images/bg2.png'
+import homepic from './images/homepic.png'
 
 const Home = () => {
   return (
@@ -13,7 +18,7 @@ const Home = () => {
     <div
       className="bg-img"
       style={{
-        backgroundImage: "url(./images/bg1.png)",
+        backgroundImage: `url(${bg1})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center"
       }}
@@ -21,7 +26,7 @@ const Home = () => {
       <div
         className="bg-img"
         style={{
-          backgroundImage: "url(./images/bg2.png)",
+          backgroundImage: `url(${bg2})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition:'center'
         }}
@@ -42,12 +47,12 @@ const Home = () => {
                 <div className="imgContainer d-flex float-left">
                   <img
                     className="img1"
-                    src="./images/pbbg.png"
+                    src={pbbg}
                     alt="PlayButton"
                   />
                   <img
                     className="img2"
-                    src="./images/pb.png"
+                    src={pb}
                     alt="PlayButton"
                   />
                 </div>
@@ -57,7 +62,7 @@ const Home = () => {
               <div className="homeimg col-12 col-sm-10 mx-sm-auto col-md-6 col-lg-6 mt-5 ms-auto">
                 <img
                   className="d-block mt-md-5 ms-lg-auto"
-                  src="./images/homepic.png"
+                  src={homepic}
                   alt="Home Img"
                   height="310px"
                   width="412px"
@@ -79,12 +84,12 @@ const Home = () => {
                 <div className="imgContainer d-flex float-left">
                   <img
                     className="img1"
-                    src="./images/pbbg.png"
+                    src={pbbg}
                     alt="PlayButton"
                   />
                   <img
                     className="img2"
-                    src="./images/pb.png"
+                    src={pb}
                     alt="PlayButton"
                   />
                 </div>
@@ -94,7 +99,7 @@ const Home = () => {
               <div className="homeimg col-12 col-sm-10 mx-sm-auto col-md-6 col-lg-6 mt-5 ms-auto">
                 <img
                   className="d-block mt-md-5 ms-lg-auto"
-                  src="./images/homepic.png"
+                  src={homepic}
                   alt="Home Img"
                   height="310px"
                   width="412px"
@@ -116,12 +121,12 @@ const Home = () => {
                 <div className="imgContainer d-flex float-left">
                   <img
                     className="img1"
-                    src="./images/pbbg.png"
+                    src={pbbg}
                     alt="PlayButton"
                   />
                   <img
                     className="img2"
-                    src="./images/pb.png"
+                    src={pb}
                     alt="PlayButton"
                   />
                 </div>
@@ -131,7 +136,7 @@ const Home = () => {
               <div className="homeimg col-12 col-sm-10 mx-sm-auto col-md-6 col-lg-6 mt-5 ms-auto">
                 <img
                   className="d-block mt-md-5 ms-lg-auto"
-                  src="./images/homepic.png"
+                  src={homepic}
                   alt="Home Img"
                   height="310px"
                   width="412px"

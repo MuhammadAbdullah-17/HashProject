@@ -4,7 +4,7 @@ import Data from "./AboutData";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
-// ..
+import aboutpic from './images/aboutpic.png'
 AOS.init();
 const About = () => {
   const [showResults, setShowResults] = React.useState(false);
@@ -58,7 +58,7 @@ const About = () => {
             className="aimg col-10 col-md-7 col-lg-5 "
           >
             <img
-              src="./images/aboutpic.png"
+              src={aboutpic}
               height="400px"
               width="450px"
               alt="About"
